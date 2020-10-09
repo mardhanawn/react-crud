@@ -1,0 +1,45 @@
+.container-franchise {
+    background-color: #F8F8F8;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.container-card-franchise {
+    background-color: #F8F8F8;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.card-franchise {
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 70px rgba(94, 90, 135, 0.15);
+    margin: 10px auto;
+}
+
+.title-card-franchise {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #3B3C6E;    
+}
+
+.subtitle-directed {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #FF8C00;
+}
+
+@media only screen and (max-width: 767px) {
+    .card-franchise {
+        width: 85%;
+        margin: 5px auto;
+        text-align: center;
+    }
+}

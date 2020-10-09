@@ -1,0 +1,46 @@
+.container-poster {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.img-fluid {
+    border-radius: 20px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #1f2a36;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #6f7981;
+}
+
+.text-brand {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FD8F5F;    
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .title {
+        font-size: 26px;
+        line-height: 35px;
+    }
+}

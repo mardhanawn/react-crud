@@ -1,0 +1,39 @@
+.container-franchise {
+    background-color: #F8F8F8;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #6f7981;
+}
+
+.update {
+    background-color: #3570d9;
+    border-radius: 5px;
+    border: none;
+}
+
+.update:hover {
+    background-color: #3570d9;
+}
+
+.delete {
+    background-color: #DC3545;
+    border-radius: 5px;
+    border: none;
+}
+
+.delete:hover {
+    background-color: #DC3545;
+}
+
+.spinner {
+    color: #3570d9;
+}

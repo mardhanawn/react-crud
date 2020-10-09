@@ -1,0 +1,81 @@
+.container-header {
+    margin-bottom: 10rem;
+}
+
+.background-landing-img {
+    background-image: url('../../assets/img/background-landing.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 10%;
+    background-position-x: 40%;
+    margin-bottom: -4rem;
+    border-radius: 0 0 0 50px;
+}
+
+.background-landing {
+    background-image: linear-gradient(90deg,#1a3475,#3570d9);
+    /* background-color: #000000 #2B56A9; */
+    padding: 8rem 0 ;
+    color: red;
+}
+
+.text-brand-landing {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FF8C00;
+}
+
+.text-landing {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 82px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.title-text-landing {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;    
+}
+
+@media only screen and (max-width: 767px) {
+
+    .container-header {
+        margin-bottom: 0;
+    }
+
+    .background-landing-img {
+        height: 20rem;
+        margin-bottom: 0;
+    }
+
+    .background-landing {
+        padding: 2rem 0;
+    }
+
+    .md-disappear {
+        display: none;
+    }
+
+    .text-landing {
+        text-align: center;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .title-text-landing {
+        text-align: center; 
+    }
+
+}
